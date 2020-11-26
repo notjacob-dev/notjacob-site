@@ -4,6 +4,9 @@
       const redirect = () => {
           window.location.href = "/contact"
       }
+      const redirect_about = () => {
+          window.location.href = "/about"
+      }
     </script>
     <title>udemy rails course 01</title>
     <style>
@@ -21,10 +24,7 @@
         .container {
             height: 200px;
         }
-        #redir {
-            margin: -100px -190px;
-            top: 25%;
-            left: 50%;
+        button {
             position: relative;
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -36,7 +36,17 @@
             width: 400px;
             transition: background-color 400ms
         }
-        #redir:hover {
+        #redir {
+            margin: -100px -190px;
+            top: 25%;
+            left: 50%;
+        }
+        #redir2 {
+            margin: -100px -193px;
+            top: 45%;
+            left: 49%;
+        }
+        button:hover {
             cursor: pointer;
             background-color: #9198e5;
             transition: background-color 400ms;
@@ -57,6 +67,7 @@
         Hello, everyone
       </h3>
       <button onclick="redirect()" id="redir">Contact me!</button>
+      <button onclick="redirect_about()" id="redir2">About!</button>
     </div>
 
   </body>
