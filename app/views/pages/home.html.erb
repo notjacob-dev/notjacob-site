@@ -1,1 +1,64 @@
-<h1>Hello world</h1>
+<html lang="en">
+  <head>
+    <script>
+      const redirect = () => {
+          window.location.href = "/contact"
+      }
+    </script>
+    <title>udemy rails course 01</title>
+    <style>
+      @keyframes shift {
+          from {background: #e66465}
+          to {background: #9198e5}
+      }
+      @keyframes backshift {
+          from {background: #9198e5}
+          to {background: #9198e5}
+      }
+        html {
+            background: #2b2a30;
+        }
+        .container {
+            height: 200px;
+            position: relative;
+        }
+        #redir {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 490px;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            background-color: #e66465;
+            border: 2px #9198e5;
+            border-radius: 5px;
+            font-size: 150%;
+            font-family: "Gotham Pro Medium", serif;
+            width: 400px;
+            transition: background-color 400ms
+        }
+        #redir:hover {
+            cursor: pointer;
+            background-color: #9198e5;
+            transition: background-color 400ms;
+        }
+        #header-text {
+            text-align: center;
+            font-family: verdana, serif;
+            color: #730E15;
+            font-weight: bold;
+            font-size: xxx-large;
+            text-shadow: 3px 3px gray;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3 id="header-text">
+        Hello, everyone
+      </h3>
+      <button onclick="redirect()" id="redir">Contact me!</button>
+    </div>
+
+  </body>
+</html>
