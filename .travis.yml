@@ -5,9 +5,9 @@ cache:
 services:
   - postgresql
 before_install:
-  - nvm install --lts
+  - npm install
 before-script:
-  - bundle install --jobs=3 --retry=3
+  - bundle install
   - yarn
   - rails db:create
   - rails db:schema:load
