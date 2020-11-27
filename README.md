@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ * Ruby version 2.7.1  
+ * System dependencies - postgresql (prod) / sqlite3 (dev), webpacker, rails, npm, yarn, bundler  
+-----
+This project is being developed for my ruby class at [udemy](https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/).  
+The staging server can be found [here](https://notjacob-site.herokuapp.com)
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
