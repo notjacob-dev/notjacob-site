@@ -14,3 +14,4 @@ before-script:
 script:
   - rails test
   - rails test:system
+os: windows # build only working on windows architectures for now -- cant figure out why
